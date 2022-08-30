@@ -8,7 +8,7 @@ body {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    background-color: whitesmoke;
+    background: linear-gradient(90deg, pink,white);
 }
 
 header {
@@ -22,9 +22,9 @@ header img {
 }
 
 nav {
-    background-color: lightgray;
+    background-color: white;
     box-shadow: 1px 1px 10px black;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 nav ul {
@@ -35,11 +35,14 @@ nav ul {
 }
 
 nav ul li {
-    border: 1px solid black;
+    box-shadow: 1px 1px 10px white, inset 1px 1px 10px white;
     background-color: rgba(0, 255, 213, 0.447);
     font-weight: bolder;
     padding: 10px 10px;
     border-radius: 5px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li:hover {
@@ -51,11 +54,12 @@ nav ul li a {
 }
 
 main {
+    background-color: white;
     margin-top: 30px;
-    background-color: lightgray;
     box-shadow: 1px 1px 10px black;
     border-radius: 20px;
-    padding: 10px;
+    padding: 30px;
+
 }
 
 main ul {
@@ -76,6 +80,8 @@ main table {
 
 main table td {
     border: 1px solid black;
+    width: 200px;
+    text-align: center;
 }
 
 main iframe {
@@ -84,29 +90,36 @@ main iframe {
 }
 
 .video {
-    margin: 30px;
+    margin: 20px;
+    text-align: center;
 }
 
 #newsletter {
+    background-color: white;
     margin-top: 30px;
-    background-color: lightgray;
     box-shadow: 1px 1px 10px black;
     border-radius: 20px;
     padding: 10px;
+    text-align: center;
 }
 
 #articoli {
-    background-color: lightgray;
+    background-color: white;
     box-shadow: 1px 1px 10px black;
     border-radius: 20px;
-    padding: 10px;
-    margin: 30px auto;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+
+#articoli a {
+    color: coral;
+    font-weight: bold;
 }
 
 footer {
-    background-color: lightgray;
+    background-color: gray;
+    color: white;
     box-shadow: 1px 1px 10px black;
-    border-radius: 20px;
     margin: 30px auto;
     padding: 10px;
 }
